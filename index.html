@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css">
+    <title>greenworkx</title>
+  </head>
+  <body>
+    <form action="submit">
+      <div>
+        <label for="outdoors">Willingness to work outdoors</label>
+        <input type="number" name="outdoors" id="outdoors-work" min="1" max="5" />
+      </div>
+
+      <div>
+        <label for="hand-skills">Willingness to learn hand skills</label>
+        <input type="number" name="hand-skills" id="hand-skills" min="1" max="5" />
+      </div>
+
+      <div>
+        <label for="tech-work">Willingness to work with tech</label>
+        <input type="number" name="tech-work" id="tech-work" min="1" max="5" />
+      </div>
+      <button type="submit" id="submit-btn">Submit</button>
+    </form>
+
+    <div id="results"></div>
+
+    <script src="main.js" type="module"></script>
+  </body>
+</html>

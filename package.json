@@ -1,0 +1,15 @@
+{
+  "name": "greenworkx",
+  "description": "Coding challenge for Greenworkx",
+  "version": "1.0.0",
+  "main": "main.js",
+  "devDependencies": {
+    "eslint": "^8.46.0",
+    "prettier": "^3.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
